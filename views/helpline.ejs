@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpLine Numbers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a6d27a9f7c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+        .jumbotron{
+            background-color: rgba(255, 255, 0,0.9);
+            font-family: 'Sriracha', cursive;
+            font-size: x-large;
+            margin-top: 3%;
+            border: 5px double saddlebrown;
+        }
+        h1{
+            color: saddlebrown;
+            font-weight: 900;
+        }
+        li{
+            list-style-type:square;
+            color:black ;
+        }
+        #navba{
+            list-style-type: none;
+            font-size: xx-large;
+            text-align: center;
+            font-weight: 700;
+        }
+        #heading{
+            font-size: xx-large;;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        
+        <a class="navbar-brand" href="/search" id="heading">COVID STATS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active" id="navba">
+                    <a class="nav-link" href="/symptoms">Symptoms</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active" id="navba">
+                    <a class="nav-link" href="/helpline-numbers">Help-Line Numbers</a>
+                </li>
+            </ul>
+    
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active" id="navba">
+                    <a class="nav-link" href="/search"><i class="fas fa-search"></i> Search Again</a>
+                </li>
+    
+            </ul>
+        </div>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="/users/logout">logout</a>
+        </nav>
+    </nav>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Help-Line Numbers For COVID-19</h1>
+            <ul>
+                <li><%=parsedData3[1]['contact_details'][0]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][0]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][1]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][1]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][2]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][2]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][3]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][3]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][4]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][4]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][5]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][5]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][6]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][6]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][7]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][7]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][8]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][8]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][9]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][9]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][10]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][10]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][11]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][11]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][12]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][12]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][13]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][13]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][14]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][14]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][15]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][15]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][16]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][16]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][17]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][17]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][18]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][18]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][19]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][19]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][20]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][20]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][21]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][21]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][22]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][22]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][23]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][23]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][24]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][24]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][25]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][26]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][27]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][27]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][28]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][28]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][29]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][29]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][30]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][30]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][31]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][31]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][32]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][32]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][33]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][33]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][34]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][34]['helpline_number']%> </li>
+                <li><%=parsedData3[1]['contact_details'][35]['state_or_UT']%> :-
+                    <%=parsedData3[1]['contact_details'][35]['helpline_number']%> </li>
+            
+            
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

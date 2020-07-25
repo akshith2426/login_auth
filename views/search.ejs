@@ -1,0 +1,112 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID MINI STATS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a6d27a9f7c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <style>
+        @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(https://image.freepik.com/free-vector/covid19-coronavirus-infection-spreading-pandemic-background-design_1017-24447.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+h1{
+
+  margin: 10%;
+    font-weight: 900;
+    color: rgb(255, 8, 8);
+    text-align: center;
+    margin-bottom: -10%;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid rgb(255, 8, 8);
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(255, 8, 8);
+  font-size: 25px;
+  font-weight: 700;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+::placeholder{
+    color: rgb(255, 8, 8);
+    font-weight: 700;
+}
+.far,.fas{
+    color: rgb(255, 8, 8);
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 4px solid rgb(255, 8, 8);
+  color: rgb(255, 8, 8);
+  padding: 3px;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 12px 0;
+}
+    </style>
+    
+</head>
+
+<body>
+    
+    <h1>Please Enter Your Country And State</h1>
+    <form action="/results" method="GET">
+        <div class="login-box">
+            
+            <div class="textbox">
+                <i class="fas fa-globe-africa"></i>
+                <input type="text" placeholder="COUNTRY" name="country" placeholder="state">
+            </div>
+    
+            <div class="textbox">
+                <i class="far fa-flag"></i></i>
+                <input type="text" name="province" placeholder="STATE">
+            </div>
+    
+            <input type="submit" class="btn" value="SUBMIT">
+        </div>
+    </form>
+        
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
